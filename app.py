@@ -15,7 +15,7 @@ PINN_PASS = st.secrets.get("PINNACLE_PASS", "")
 ODDS_API_KEY = st.secrets.get("ODDS_API_KEY", "")
 
 # Konfig
-PINN_BASE = "[api.pinnacle.com](https://api.pinnacle.com/v2)"
+PINN_BASE = "api.pinnacle.com"
 SPORT_ID_SOCCER = 29  # Pinnacle: Soccer
 EDGE_DEFAULT = 0.02   # 2% edge default
 SVENSKA_DOMAINS = {"dbet.se", "atg.se", "expekt.se", "luckysports.se"}
